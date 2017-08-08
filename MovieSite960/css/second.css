@@ -1,0 +1,163 @@
+body{
+     font-family: sans-serif;
+     margin:0;
+     width: 100%;
+}
+
+.header
+{
+     background: gray;
+     height: 100px;
+}
+
+.header_title{
+     margin-top: 0px;
+     font-size: 60px;
+     color: red;
+     text-shadow: 5px 4px blue;
+     margin-left: 80px;
+}
+
+aside{
+     float: right;
+}
+
+#header_item li{
+     line-height: 120px;
+     display: inline;
+     padding: 1px;
+}
+
+#header_item li a{
+     color: purple;
+     text-decoration: none;
+}
+
+#header_item li a:hover{
+     text-decoration: underline;
+     font-size: 16px;
+     color: white;
+}
+
+#hollywood a:hover{
+     display: inline;
+}
+
+.imag:hover{
+     transform:scale(.80);
+}
+
+.upcoming_movie{
+     margin:auto;
+     width: 1000px;
+     height: 1200px;
+}
+
+.bollywood_upcoming{
+     width: 1000px;
+     height: 580px;
+     margin-top: 0px;
+}
+
+.bollywood_upcoming .image{
+     width: 400px;
+     height: 560px;
+     float: left;
+     margin: 4px;
+}
+
+.bollywood_upcoming .description{
+     width: 580px;
+     height: 560px;
+     float: right;
+     margin: 4px;
+}
+
+.bollywood_upcoming .description h1{
+     text-transform: uppercase;
+     text-align: center;
+     text-decoration: underline;
+     text-shadow: 0px 1px grey; 
+}
+
+.bollywood_upcoming #detail_description{
+     width: 500px;
+     height: 480px;
+     margin:auto;
+}
+
+.bollywood_upcoming #detail_description p{
+     padding: 4px;
+     font-size: 14px;
+}
+
+.hollywood_upcoming{
+     width: 1000px;
+     height: 580px;
+     margin-top: 10px;
+}
+
+.hollywood_upcoming .image{
+     width: 400px;
+     height: 560px;
+     float: right;
+     margin: 4px;
+}
+
+.hollywood_upcoming .description{
+     width: 580px;
+     height: 560px;
+     float: left;
+     margin: 4px;
+}
+
+.hollywood_upcoming .description h1{
+     text-transform: uppercase;
+     text-align: center;
+     text-decoration: underline;
+     text-shadow: 0px 1px grey; 
+}
+
+.hollywood_upcoming #detail_description{
+     width: 500px;
+     height: 480px;
+     margin:auto;
+}
+
+.hollywood_upcoming #detail_description p{
+     padding: 4px;
+     font-size: 15px;
+}
+
+button{
+     float: left;
+}
+
+.footer{
+     background-color: grey;
+     height: 110px;
+     margin-top: 40px;
+}
+
+.footer_image{
+     float: right;
+     padding: 10px;
+}
+
+.footer img,h3{
+     float: right;
+     padding: 10px;
+}
+
+.footer a:hover{
+     color: purple;
+     opacity: .5;
+}
+
+.jump{
+     height: 40px;
+}
+
+.about p{
+     float: right;
+}

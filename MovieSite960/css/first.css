@@ -1,0 +1,167 @@
+body{
+	font-family: sans-serif;
+	margin:0;
+	width: 100%;
+}
+
+.header
+{
+     background: gray;
+     height: 100px;
+}
+
+.header_title{
+     margin-top: 0px;
+     font-size: 60px;
+     color: red;
+     text-shadow: 5px 4px blue;
+     margin-left: 80px;
+}
+
+aside{
+     float: right;
+}
+
+#header_item li{
+     line-height: 120px;
+     display: inline;
+     padding: 1px;
+}
+
+#header_item li a{
+     color: purple;
+     text-decoration: none;
+}
+
+#header_item li a:hover{
+     text-decoration: underline;
+     font-size: 16px;
+     color: white;
+}
+
+#hollywood a:hover{
+	display: inline;
+}
+
+.imag:hover{
+	transform:scale(.80);
+}
+
+.col-sec3{
+}
+
+table,th,td{
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding: 20px;
+	text-align: center;
+}
+
+.hero_unit h1{
+	font-size: 60px;
+	color: blue;
+	background-color: #91916E;
+	text-align: center;
+}
+
+.hero_unit_image{
+	text-align: center;
+	width: 1550px;
+	height: 860px; 
+}
+
+.hero_unit_image_col1{
+	width: 1500px;
+	height: 360px;
+	margin: 10px;
+}
+
+.hero_unit_image_col2{
+	width: 1500px;
+	height: 360px;
+	margin: 10px;
+}
+
+.hero_unit_image_box1{
+	float: left;
+	padding: 6px;
+}
+
+.hero_unit_image_box2{
+	float: left;
+	padding: 6px;
+}
+
+.hero_unit_image_box3{
+	float: left;
+	padding: 6px;
+}
+
+.hero_unit_image_box4{
+	float: left;
+	padding: 6px;
+}
+
+.hero_unit_image_box5{
+	float: left;
+	padding: 6px;
+}
+
+.hero_unit_image_box6{
+	float: left;
+	padding: 6px;
+}
+
+.hero_unit_image_box7{
+	float: left;
+	padding: 6px;
+}
+
+.hero_unit_image_box8{
+	float: left;
+	padding: 6px;
+}
+
+.hero_unit_image_box9{
+	float: left;
+	padding: 6px;
+}
+
+.hero_unit_image_box10{
+	float: left;
+	padding: 6px;
+}
+
+button{
+     float: right;
+}
+
+.footer{
+     background-color: grey;
+     height: 110px;
+     margin-top: 40px;
+}
+
+.footer_image{
+     float: right;
+     padding: 10px;
+}
+
+.footer img,h3{
+     float: right;
+     padding: 10px;
+}
+
+.footer a:hover{
+     color: purple;
+     opacity: .5;
+}
+
+.jump{
+     height: 40px;
+}
+
+.about p{
+     float: right;
+}
+
